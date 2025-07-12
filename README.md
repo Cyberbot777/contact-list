@@ -8,7 +8,7 @@ This project demonstrates using **global state management** with React Context, 
 
 ## 🔗 Live Demo (Frontend)
 
-Coming Soon!
+[https://contact-list-drab-delta.vercel.app](https://contact-list-drab-delta.vercel.app)
 
 ---
 
@@ -25,6 +25,8 @@ Coming Soon!
   - `/edit/:id` → Edit Contact Page
 - Clean, responsive dark theme with Tailwind CSS
 - Minimal, sleek UI ready for further customization
+- Static profile image per contact (for demonstration)
+- Deployed and production-ready on Vercel
 
 ---
 
@@ -35,6 +37,8 @@ Coming Soon!
 - Tailwind CSS
 - React Router
 - React Context API
+- Lucide React (Icons)
+- Headless UI (for modals)
 
 ---
 
@@ -47,14 +51,15 @@ Clone the repo and run the project locally.
 ```
 project-root/
 ├── src/
-│   ├── components/       ← Reusable UI components (buttons, cards, etc.)
+│   ├── components/       ← Reusable UI components (buttons, icons, etc.)
 │   ├── context/          ← ContactsContext (global state)
 │   ├── pages/            ← Pages for Contact List and Contact Form
 │   ├── App.tsx           ← Main app routing + context provider
 │   └── main.tsx          ← Entry point
-├── public/               ← Static assets (optional)
+├── public/               ← Static assets (images, favicon)
 ├── package.json          ← Project config
-└── tailwind.config.js    ← Tailwind setup
+├── tailwind.config.js    ← Tailwind setup
+└── tsconfig.json         ← TypeScript config
 ```
 
 ### Install Dependencies
@@ -69,11 +74,11 @@ npm install
 npm run dev
 ```
 
-- Frontend: http://localhost:5173
+- Frontend: [http://localhost:5173](http://localhost:5173)
 
 ---
 
-## Assignment Objectives Covered
+## Objectives Covered
 
 - Use React Context for global state management
 - Integrate with a REST API (Contacts API)
@@ -81,6 +86,7 @@ npm run dev
 - Structure project with scalability in mind
 - Apply TypeScript for type safety
 - Style with Tailwind CSS for a modern look
+- Deploy to Vercel (production-ready)
 
 ---
 
@@ -91,9 +97,11 @@ npm run dev
 - Integrate REST APIs for real-world data handling
 - Use React Router for smooth navigation
 - Design clean, responsive UIs with Tailwind CSS
+- Understand modern deployment workflows (Vercel)
 
 ---
 
 ## Author
 
 Built by [@Cyberbot777](https://github.com/Cyberbot777)
+
