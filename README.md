@@ -2,7 +2,7 @@
 
 A sleek, dark-themed Contact List app built with React, TypeScript, Tailwind CSS, and the Context API.
 
-This project demonstrates using **global state management** with React Context, TypeScript typing, API integration, and modern page routing — all in a professional, minimalist UI.
+This project demonstrates using **global state management** with React Context, TypeScript typing, API integration, and modern page routing — all in a professional, minimalist UI
 
 ---
 
